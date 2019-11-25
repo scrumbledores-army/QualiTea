@@ -1,0 +1,30 @@
+body {
+	padding: 10px;
+  font-size: 16px;
+  line-height: 1.42857;
+}
+
+.table {
+	background: white;
+}
+
+/* Buttons at the bottom of the screen */
+.bottom-buttons {
+  position: fixed;
+  top: auto;
+  bottom: 0px;
+  width: 100%;
+}
+
+.bottom-buttons.row {
+  margin: 0 -10px;
+}
+.bottom-buttons .btn {
+  font-size: 4em;
+  width: 100%;
+  border-radius: 0px;
+}
+
+.bottom-buttons.row > div {
+  padding: 5px;
+}
