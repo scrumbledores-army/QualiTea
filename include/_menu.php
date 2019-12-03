@@ -10,7 +10,7 @@
     </a>
   </div>
   <div class="col-4">
-    <a class="btn btn-outline-primary" href="#">
+    <a class="btn btn-outline-primary" href="Community.php">
       <i class="fas fa-user-friends"></i>
     </a>
   </div>
