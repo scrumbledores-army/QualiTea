@@ -2,12 +2,13 @@
 <head>
   <?php include('include/_imports.php'); ?>
   <?php include('fiveStar.php'); ?>
-  
+
 </head>
 <style>
-	h1 {background-color: white;
+	h2 {
+    background-color: white;
 		text-align: center;
-		position: fixed;
+		position: sticky;
 		margin: 0;
 		padding: 1%;
 		top: 0px;
@@ -16,8 +17,8 @@
 	}
 	.drinks {
 		padding: 0%;
-		padding-top: 60px;
-		padding-bottom: 100px;
+		height: calc(100% - 60px - 4em);
+		overflow-y: scroll;
 	}
 
 	.drinks img{
@@ -47,19 +48,12 @@
 		text-align: center
 		width: 50%;
 		margin: 0 auto;
-
-
-
-
-
-
-
 	}
 </style>
 <html>
 	<body>
   <div class="content">
-    <h1>Find a Combination</h1>
+    <h2>Find a Combination</h2>
     <div class="drinks">
     	<ul class="items">
     		<li>
@@ -67,10 +61,10 @@
     					<img src="https://feelgoodfoodie.net/wp-content/uploads/2019/01/Glowing-Green-Smoothie-7-500x500.jpg">
     					<h4>Green Smoothie</h4>
     					<p>User 1</p>
-    					
+
     				</a>
     				<div class="stars" id="s1">
-    					
+
     					<div class="rate">
 						    <input type="radio" id="star5" name="rate1" value="5" />
 						    <label for="star5" title="text">5 stars</label>
