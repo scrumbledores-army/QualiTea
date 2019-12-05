@@ -86,6 +86,7 @@
     <div class="content">
       <div style="height:150px;">
       </div>
+      <?php include('include/_top_menu.php'); ?>
       <div class="row">
         <div class="col-3">
           <input type="range" min="1" max="6" value="3" class="slider" id="sizeSlider" orient="vertical" oninput="updateSlider()">
