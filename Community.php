@@ -214,6 +214,7 @@
 
 	</div>
 	<div class="menu">
+    <?php include('include/_top_menu.php'); ?>
     <?php include('include/_menu.php'); ?>
     </div>
   </div>
