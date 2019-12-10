@@ -1,8 +1,9 @@
 
 <head>
   <?php include('include/_imports.php'); ?>
-  <?php include('fiveStar.php'); ?>
-
+  
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <style>
 	h2 {
@@ -48,7 +49,52 @@
 		text-align: center
 		width: 50%;
 		margin: 0 auto;
+
 	}
+
+	*{
+    margin: 0;
+    padding: 0;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+
+
+	
 </style>
 <html>
 	<body>
@@ -101,7 +147,7 @@
     				</div>
     		</li>
     		<li>
-    				<a href ="#" style ="color:black">
+    				<a href ="foundDrink.php" style ="color:black">
     					<img src="https://www.spendwithpennies.com/wp-content/uploads/2014/01/SpendWithPennies-2-Strawberry-Banana-Smoothie-23.jpg">
     					<h4>Strawberry Banana Smoothie</h4>
     					<p>User 3</p>
