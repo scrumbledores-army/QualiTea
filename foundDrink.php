@@ -151,7 +151,7 @@
 
 	</div>
 	<div class="menu">
-    <?php include('include/_menu.php'); ?>
+    <?php include('include/_bottom_menu.php'); ?>
     </div>
   </div>
 	</body>

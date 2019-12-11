@@ -119,7 +119,7 @@
           </a>
         </div>
       </div>
-      <?php include('include/_menu.php'); ?>
+      <?php include('include/_bottom_menu.php'); ?>
     </div>
 	</body>
 </html>
