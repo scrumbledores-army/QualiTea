@@ -21,38 +21,31 @@ body {
 }
 
 .center {
-  position:fixed;
+  position: fixed;
   top: 50%;
   left: 50%;
-  width: 30em;
-  height: 18em;
-  margin-top: -9em;
-  margin-left: -15em;
 }
 
 .center.Create {
-  top: 50%;
-  width: 22em;
-  height: 14em;
-  margin-top: -7em;
-  margin-left: -11em;
+  top: 40%;
+  width: 38vh;
+  height: 18vh;
+  margin-left: -19vh;
 }
 
 .center.MyDrinks {
-  top: 80%;
-  width: 26em;
-  height: 14em;
-  margin-top: -12em;
-  margin-left: -13em;
+  top: 57%;
+  width: 46vh;
+  height: 20vh;
+  margin-left: -23vh;
   
 }
 
 .center.Share {
-  top: 90%;
-  width: 18em;
-  height: 12em;
-  margin-top: -6em;
-  margin-left: -9em;
+  top: 75%;
+  width: 34vh;
+  height: 18vh;
+  margin-left: -17vh;
 }
 
 /* Buttons at the top of the screen */
