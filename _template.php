@@ -1,7 +1,7 @@
-<head>
-  <?php include('include/_imports.php'); ?>
-</head>
 <html>
+  <head>
+    <?php include('include/_imports.php'); ?>
+  </head>
 	<body>
     <?php include('include/_top_menu.php'); ?>
     <div class="content">
