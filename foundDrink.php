@@ -104,6 +104,7 @@
     </style>
   </head>
 	<body>
+    <?php include('include/_top_menu.php'); ?>
   <div class="content">
     <h2>Strawberry Banana Smoothie</h2>
     <div class="drinks">
