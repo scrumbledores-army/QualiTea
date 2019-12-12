@@ -73,10 +73,9 @@
         
         <div id="Theme">
         <h4>Themes</h4>
-          <p>Dark
-	     Light
-	     Gray
-	  </p>
+		<p>Dark</p>
+		<p>Light</p>
+		<p>Gray</p>
         </div>
         <footer>
           <p>©Copyright 2420 by me, myself, and I. All rights around and reversed.</p>
