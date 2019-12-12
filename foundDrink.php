@@ -17,7 +17,7 @@
       }
       .drinks {
         padding: 0%;
-        height: calc(100% - 60px - 4em);
+        height: calc(100% - 45px);
         overflow-y: scroll;
       }
 

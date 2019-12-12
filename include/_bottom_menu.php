@@ -1,6 +1,6 @@
 <div class="bottom-buttons row">
   <div class="col-4">
-    <a class="btn btn-outline-danger" href="#">
+    <a class="btn btn-outline-danger" href="foundDrink.php">
       <i class="fas fa-scroll"></i>
     </a>
   </div>
